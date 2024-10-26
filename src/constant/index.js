@@ -1,4 +1,4 @@
-import { ABC, Learning, Popularwoman, Trophy,BookReading, examIcon, onlineExam, examIcon1, Ellipse7, Ellipse8, Rectangle31, batch12019, batch22019, batch32019, batch42019, batch52019 } from "../assets";
+import { ABC, Learning, Popularwoman, Trophy,BookReading, examIcon, onlineExam, Ellipse7, Ellipse8, Rectangle31, batch12019, batch22019, batch32019, batch42019, batch52019 } from "../assets";
 
 export const Navlinks = [
     {id:1,title:"Home",link:"/"},
@@ -59,7 +59,7 @@ export const benefits = [
 
     {id:1,title:"JEE",description:"Unlock your potential with our JEE course offering a well-rounded approach to mastering in physics Stay ahead with regular assessments, doubt-clearing sessions,and personalized mentoring",icon:examIcon},
     {id:2,title:"MHT-CET",description:"Achieve top scores in the MHTCET exam with our intensive course designedto cover all the essential topics with practical examples and mock tests",icon:onlineExam},
-    {id:3,title:"11th/12th Grade",description:"Build a solid foundation in Physics with in-depth conceptual learning and regular assessments, setting you up for both board exams and competitive success",icon:examIcon1},
+    {id:3,title:"11th/12th Grade",description:"Build a solid foundation in Physics with in-depth conceptual learning and regular assessments, setting you up for both board exams and competitive success",icon:examIcon},
   ]
 
   export const review =[
@@ -85,5 +85,106 @@ export const benefits = [
     {id:3,image:batch32019},
     {id:4,image:batch42019},
     {id:5,image:batch52019},
+
+  ]
+
+  export const CourseEnrollInfo = [
+    {
+      "id": 1,
+      "title": "MHT-CET",
+      image:onlineExam,
+      "description": "Our MHT-CET Physics course covers the complete syllabus for both 11th and 12th standards, with a focus on understanding fundamental concepts and applying them to problem-solving. The syllabus is divided into two key sections:",
+      "topics": {
+        "class11": [
+          "Motion in a Plane",
+          "Laws of Motion",
+          "Gravitation",
+          "Thermal Properties of Matter",
+          "Sound, Optics",
+          "Electrostatics, and Semiconductors."
+        ],
+        "class12": [
+          "Circular Motion",
+          "Gravitation",
+          "Laws of Motion",
+          "Rotational Motion",
+          "Thermal Properties of Matter",
+          "Oscillations",
+          "Surface Tension",
+          "Wave Theory",
+          "Interference and Diffraction",
+          "Electrostatics, Magnetism & Semiconductors",
+          "Communication Systems"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "JEE Mains and Advanced Course Overview",
+      image:examIcon,
+      "description": "Our JEE Mains and Advanced Physics course thoroughly covers the syllabus for both 11th and 12th standards with a focus on understanding theoretical concepts and honing problem-solving skills required for competitive exams. The syllabus is divided into two main sections:",
+      "topics": {
+        "class11": [
+          "Kinematics",
+          "Laws of Motion",
+          "Work-Energy-Power",
+          "Rotational Motion",
+          "Gravitation",
+          "Thermodynamics",
+          "Waves, and Oscillations"
+        ],
+        "class12": [
+          "Electrostatics",
+          "Current Electricity",
+          "Magnetic Effects of Current",
+          "Electromagnetic Induction",
+          "Optics, Modern Physics",
+          "Modern Physics",
+          "Semiconductor Devices"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "11th/12th Board Course Overview",
+      image:examIcon,
+      "description": "Our Maharashtra State Board Physics course comprehensively covers the syllabus for both 11th and 12th Board exams, primarily focusing on written, theoretical answers, derivations, and explanations, allowing students to showcase their conceptual clarity. The syllabus is divided into two main sections.",
+      "topics": {
+        "class11": [
+          "Kinematics",
+          "Laws of Motion",
+          "Work-Energy-Power",
+          "Thermal Properties of Matter",
+          "Gravitation",
+          "Waves and Sound",
+          "Current Electricity",
+          "Electromagnetic Waves",
+          "Reflection and Refraction of Light"
+        ],
+        "class12": [
+          "Circular Motion",
+          "Rotational Motion",
+          "Magnetic Effects of Current",
+          "Electrostatics",
+          "Magnetism",
+          "Electromagnetic Induction",
+          "Wave Optics",
+          "Semiconductors",
+          "Atoms, Nuclei",
+          "Communication Systems"
+        ]
+      }
+    }
+  ]
+  
+  export const publications = [
+
+    {id:1,title:"Target"},
+    {id:2,title:"Arihant"},
+    {id:3,title:"HC Verma"},
+    {id:4,title:"DC Pandey"},
+    {id:5,title:"Cengage"},
+    {id:6,title:"NCERT"},
+    {id:7,title:"Maharashtra State Board Textbooks"}
 
   ]

@@ -4,6 +4,7 @@ import Container from "../Container";
 import WhatShould from "./WhatShould";
 import WhyShould from "./WhyShould";
 import Baner2 from "./Baner2";
+import { Books } from "../../assets";
 
 const Baner = () => {
   return (
@@ -16,7 +17,7 @@ const Baner = () => {
         <WhyShould/>
 
         {/* baner2 */}
-        <Baner2/>
+        <Baner2 title="Sharpen Your Talents with Professional Guidance!!!" image={Books}/>
       </Container>
     </div>
   );
