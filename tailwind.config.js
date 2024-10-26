@@ -18,6 +18,8 @@ export default {
         'text-primary': '#F6A015',
         'text-count':'#003784',
         'back-primary':'#E8E578',
+        'back-about':'#9EBACE',
+        'back-about1':'#438CC1',
         'back-secondary':'#C6D3A8',
         'back-yellow' :'#E8E578',
         'back-blue':'#C9E8FF',

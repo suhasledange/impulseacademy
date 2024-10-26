@@ -19,7 +19,19 @@ import examIcon from './exam-icon.png'
 import onlineExam from './online-exam.png'
 import examIcon1 from './exam-icon1.png'
 import Rectangle31 from './Rectangle31.png'
+import AboutFaculty from './AboutFaculty.png'
+import batch12019 from './2019batch1.png'
+import batch22019 from './2019batch2.png'
+import batch32019 from './2019batch3.png'
+import batch42019 from './2019batch4.png'
+import batch52019 from './2019batch5.png'
+
 export {
+    batch12019,
+    batch22019,
+    batch32019,
+    batch42019,
+    batch52019,
     Logo,
     Ellipse1,
     Ellipse7,
@@ -40,5 +52,6 @@ export {
     examIcon,
     examIcon1,
     onlineExam,
-    Rectangle31
+    Rectangle31,
+    AboutFaculty
 }

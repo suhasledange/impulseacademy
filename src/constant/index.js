@@ -1,4 +1,4 @@
-import { ABC, Learning, Popularwoman, Trophy,BookReading, examIcon, onlineExam, examIcon1, Ellipse7, Ellipse8, Rectangle31 } from "../assets";
+import { ABC, Learning, Popularwoman, Trophy,BookReading, examIcon, onlineExam, examIcon1, Ellipse7, Ellipse8, Rectangle31, batch12019, batch22019, batch32019, batch42019, batch52019 } from "../assets";
 
 export const Navlinks = [
     {id:1,title:"Home",link:"/"},
@@ -72,3 +72,18 @@ export const benefits = [
     {id:2,image:Rectangle31,title:"To Score High In MHT-CET Physics",date:"26th Oct 2024"},
     {id:3,image:Rectangle31,title:"Mastering physics for jee",date:"25th Oct 2024"},
   ] 
+
+  export const facutyInfo = [
+    {id:1,title:"Qualifications",description:"B.E. (Mechanical Engineering), M.E. (Design Engineering)"},
+    {id:2,title:"Experience",description:"With over 14 years of experience in coaching classes and 10 years in engineering college teaching, Prof.Manoj p. Badgujar brings a wealth of knowledge and experties to his students."},
+    {id:3,title:"What i Provide",description:"Committed to delivering quality education,he ensures that students are fully prepared to excel in both acdemic and competitive settings.His teaching approach empowers students with the skills and confidence to succeed in any situation"}
+  ]
+
+  export const achievers = [
+    {id:1,image:batch12019},
+    {id:2,image:batch22019},
+    {id:3,image:batch32019},
+    {id:4,image:batch42019},
+    {id:5,image:batch52019},
+
+  ]

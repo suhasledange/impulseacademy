@@ -28,12 +28,12 @@ const Header = () => {
   return (
     <div className={`bg-white w-full sticky top-0 z-50 transition-shadow duration-300 ${isScrolled ? 'shadow-md' : ''}`}>
     <Container className="py-2 flex items-center justify-between">
-      <div className=' w-40 h-20'>
+      <div className=' md:w-40 md:h-20 w-32 h-16'>
             <img className='object-contain w-full h-full' src={Logo} alt="logo"/>
       </div>
 
       <div>
-            <ul className='font-medium text-gray-700 tracking-wide flex items-center gap-8'>
+            <ul className='md:flex hidden font-medium text-gray-700 tracking-wide items-center gap-8'>
                 {
                     Navlinks.map(link=>(
                         <li key={link.id}> 
@@ -44,6 +44,7 @@ const Header = () => {
                     ))
                 }
             </ul>
+            
       </div>
 
     </Container>
