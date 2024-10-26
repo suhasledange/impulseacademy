@@ -44,9 +44,7 @@ const Courses = () => {
         <div className="mt-56 flex flex-col items-center justify-center w-full">
           <div className="relative rounded-3xl text-lg font-medium w-full mx-auto max-w-screen-sm text-center bg-back-about2 p-9 text-white">
             Physics Researches Hub
-            <div className="w-64 h-64 flex items-center justify-center absolute bottom-6 left-16 lg:left-48 md:left-48">
-              <img className="w-full h-full object-contain" src={laptop} />
-            </div>
+              <img className="w-56 absolute -top-28 right-40 lg:right-52 md:right-56 h-auto object-contain" src={laptop} />
           </div>
 
           <div className="mt-16 flex flex-col items-center justify-center w-full">
@@ -78,7 +76,9 @@ const Courses = () => {
           <h1 className="text-2xl mb-6 text-center text-text-head font-semibold">
             Success Stories!!!
           </h1>
-          <div className="flex flex-wrap items-center justify-center gap-6">
+          <div className='w-full grid gap-4 mt-8 mb-8' 
+        style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(500px, 1fr))' }}
+        >
             {review.map((r) => (
               <ReviewCard
                 key={r.id}

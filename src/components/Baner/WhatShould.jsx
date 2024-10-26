@@ -21,8 +21,9 @@ const WhatShould = () => {
       </div>
     </div>
 
-    <div className="relative flex items-center justify-center w-[80%] mx-auto shadow-xl px-10 py-6 gap-6 rounded-2xl">
-      <div className="w-72 h-40">
+    <div className="relative flex items-center justify-center w-[100%] md:w-[80%] mx-auto shadow-xl md:px-10 px-3 py-6 gap-6 rounded-2xl">
+      
+      <div className="w-72 h-40 hidden md:block">
         <img
           className="w-full h-full object-contain"
           src={bulb}

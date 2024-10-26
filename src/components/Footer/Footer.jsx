@@ -25,17 +25,6 @@ const Footer = () => {
                 </div>
             </div>
             <div className='text-text-head'>
-                <h1 className='font-medium text-lg mb-5'>For any Query</h1>
-                <div className='flex items-center gap-2 mb-2'>
-                    <FaPhoneAlt className='text-lg'/>
-                    <p>+91 7875252152</p>
-                </div>
-                <div className='flex items-center gap-2'>
-                    <MdEmail className='text-xl'/>
-                    <p>manojbadgujar@gmail.com</p>
-                </div>
-            </div>
-            <div className='text-text-head'>
                 <h1 className='font-medium text-lg mb-4'>Categories</h1>
                 <ul className='font-medium tracking-wide flex flex-col justify-center gap-1'>
                 {
@@ -49,6 +38,18 @@ const Footer = () => {
                 }
             </ul>
             </div>
+            <div className='text-text-head'>
+                <h1 className='font-medium text-lg mb-5'>For any Query</h1>
+                <div className='flex items-center gap-2 mb-2'>
+                    <FaPhoneAlt className='text-lg'/>
+                    <p>+91 7875252152</p>
+                </div>
+                <div className='flex items-center gap-2'>
+                    <MdEmail className='text-xl'/>
+                    <p>manojbadgujar@gmail.com</p>
+                </div>
+            </div>
+           
         </Container>
     </div>
   )

@@ -2,7 +2,7 @@ import React from 'react'
 
 const ReviewCard = ({image,review,name,batch}) => {
   return (
-    <div className='shadow-xl border-2 border-gray-300 flex w-[38rem] min-h-[12rem] items-center py-2 px-6 rounded-xl hover:shadow-xl duration-200'>
+    <div className='shadow-xl border-2 border-gray-300 flex w-auto min-h-[12rem] items-center py-2 px-6 rounded-xl hover:shadow-xl duration-200'>
             <div className='w-80 h-30'>
                 <img className='w-full h-full object-contain' src={image} alt='icn'/>
             </div>
