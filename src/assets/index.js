@@ -25,6 +25,7 @@ import batch32019 from './2019batch3.png'
 import batch42019 from './2019batch4.png'
 import batch52019 from './2019batch5.png'
 import courseArt from './courseArt.png'
+import laptop from './latop.png'
 export {
     courseArt,
     batch12019,
@@ -52,5 +53,6 @@ export {
     examIcon,
     onlineExam,
     Rectangle31,
-    AboutFaculty
+    AboutFaculty,
+    laptop
 }

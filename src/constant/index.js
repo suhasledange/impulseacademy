@@ -188,3 +188,9 @@ export const benefits = [
     {id:7,title:"Maharashtra State Board Textbooks"}
 
   ]
+
+  export const AccessNotes = [
+    {id:1,title:"Downloadable Notes",description:"Concise Physics notes for core topics - deal for quick review and deeper understanding",file:""},
+    {id:2,title:"Problem Sets and Solutions",description:"Enhance problem-solving skills with structured practice questions and solutions.",file:""},
+    {id:3,title:"Exclusive Formula Sheets",description:"Organized formula sheets to simplify last-minute revisions.",file:""},
+  ]

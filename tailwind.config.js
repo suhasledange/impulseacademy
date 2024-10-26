@@ -20,6 +20,7 @@ export default {
         'back-primary':'#E8E578',
         'back-about':'#9EBACE',
         'back-about1':'#438CC1',
+        'back-about2':'#438BC7',
         'back-secondary':'#C6D3A8',
         'back-yellow' :'#E8E578',
         'back-blue':'#C9E8FF',

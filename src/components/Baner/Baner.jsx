@@ -17,7 +17,7 @@ const Baner = () => {
         <WhyShould/>
 
         {/* baner2 */}
-        <Baner2 title="Sharpen Your Talents with Professional Guidance!!!" image={Books}/>
+        <Baner2 title="Sharpen Your Talents with Professional Guidance!!!" image={Books} className1="justify-between bg-text-head max-w-screen-lg" className="w-[90%] lg:w-[30%] md:w-[50%]"/>
       </Container>
     </div>
   );
