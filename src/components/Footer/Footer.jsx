@@ -40,7 +40,7 @@ const Footer = () => {
                 <ul className='font-medium tracking-wide flex flex-col justify-center gap-1'>
                 {
                     Navlinks.map(link=>(
-                        <li key={link.id}> 
+                        <li className='hover:underline underline-offset-2' key={link.id}> 
                         <NavLink to={link.link}>
                         {link.title}
                         </NavLink>

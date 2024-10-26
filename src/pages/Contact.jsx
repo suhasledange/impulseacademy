@@ -1,16 +1,16 @@
 import React from 'react'
 import Container from '../components/Container'
 
-const Blog = () => {
+const Contact = () => {
   return (
     <div className='bg-white w-full'>
     <Container>
     
-    Blogs
+    Contact
 
     </Container>
 </div>
   )
 }
 
-export default Blog
+export default Contact

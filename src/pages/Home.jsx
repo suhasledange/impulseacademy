@@ -1,21 +1,21 @@
 import React from 'react'
 import { Hero } from '../components'
 import Baner from '../components/Baner/Baner'
-import Courses from './Courses'
 import Review from '../components/Review/Review'
 import Blogs from '../components/Blog/Blogs'
+import Course from '../components/Course/Course'
 
 const Home = () => {
   return (
     <section>
-    <section id="Home">
+    <section>
       <Hero/>
       <Baner/>
     </section>
-    <section id="Courses">
-            <Courses/>
+    <section>
+            <Course/>
     </section>
-    <section className='Review'>
+    <section>
             <Review/>
     </section>
     <section>

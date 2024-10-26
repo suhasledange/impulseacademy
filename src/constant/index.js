@@ -2,9 +2,9 @@ import { ABC, Learning, Popularwoman, Trophy,BookReading, examIcon, onlineExam, 
 
 export const Navlinks = [
     {id:1,title:"Home",link:"/"},
-    {id:2,title:"Courses",link:"#Courses"},
+    {id:2,title:"Courses",link:"/courses"},
     {id:3,title:"About Us",link:"/about"},
-    {id:4,title:"Blog",link:"/blog"},
+    {id:4,title:"Blog",link:"/blogs"},
     {id:5,title:"Contact",link:"/contact"},
 ]
 
