@@ -24,8 +24,8 @@ const Courses = () => {
         </div>
 
           {/* publications */}
-          <div className="mt-16">
-              <h1 className="text-xl font-medium mb-6 text-text-head">Publications We Use</h1>
+          <div className="mt-20">
+              <h1 className="text-3xl text-center font-medium mb-8 text-text-head">Publications We Use</h1>
               <div className="flex flex-wrap items-center justify-start gap-10">
                   {
                     publications.map(p=>(
