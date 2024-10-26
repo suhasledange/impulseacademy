@@ -11,7 +11,7 @@ const Review = () => {
             <div className='flex flex-wrap items-center justify-center gap-6'>
                 {
                     review.map(r=>(
-                        <ReviewCard image={r.image} review={r.review} name={r.name} batch={r.batch}/>
+                        <ReviewCard key={r.id} image={r.image} review={r.review} name={r.name} batch={r.batch}/>
                     ))
                 }
             </div>

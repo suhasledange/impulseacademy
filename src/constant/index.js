@@ -48,7 +48,7 @@ export const benefits = [
       bgColor: "bg-back-pink",
     },
     {
-        id: 5,
+        id: 6,
         text: "Continuous Practice Papers",
         icon: ABC,
         bgColor: "bg-back-pink",
