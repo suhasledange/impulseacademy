@@ -31,3 +31,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+.box-shadow-lg{
+    -webkit-box-shadow: -1px 10px 6px 0px rgba(0,0,0,0.34);
+    -moz-box-shadow: -1px 10px 6px 0px rgba(0,0,0,0.34);
+    box-shadow: -1px 10px 6px 0px rgba(0,0,0,0.34);
+}

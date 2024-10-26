@@ -22,7 +22,9 @@ export default {
         'back-yellow' :'#E8E578',
         'back-blue':'#C9E8FF',
         'back-orange':'#FFEEC9',
-        'back-pink':'#FFEEC9',
+        'back-pink':'#FFDDE1',
+        'back-green':'#D8FFC9',
+        'back-blue-light':'#BDDAEF'
       },
 
     },
