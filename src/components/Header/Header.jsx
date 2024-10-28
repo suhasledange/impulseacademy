@@ -39,7 +39,7 @@ const Header = () => {
           {Navlinks.map((link) => (
             <li key={link.id}>
               <NavLink
-                className={({ isActive }) => isActive ? "font-bold" : ""}
+                className={({ isActive }) => isActive ? "font-bold text-text-head" : ""}
               to={link.link}>{link.title}</NavLink>
             </li>
           ))}
@@ -80,7 +80,7 @@ const Header = () => {
           {Navlinks.map((link) => (
             <li className=" hover:underline underline-offset-2" key={link.id}>
               <NavLink 
-                className={({ isActive }) => isActive ? "font-bold" : ""}
+                className={({ isActive }) => isActive ? "font-bold text-text-head" : ""}
               to={link.link} onClick={() => setMenuOpen(false)}>
                 {link.title}
               </NavLink>
