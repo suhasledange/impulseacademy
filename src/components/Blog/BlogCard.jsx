@@ -2,7 +2,7 @@ import React from 'react'
 
 const BlogCard = ({id,image,title,date}) => {
   return (
-    <div className='shadow-xl border-2 border-gray-300 flex-grow flex flex-col min-h-[24rem] items-center justify-between p-8 rounded-2xl hover:shadow-xl duration-200'>
+    <div className='shadow-xl border-2 lg:max-w-[25.6rem] md:max-w-[27rem] max-w-[26rem] lg:mx-0 md:mx-0 mx-auto flex-grow border-gray-300 flex flex-col min-h-[24rem] items-center justify-between p-8 rounded-2xl hover:shadow-xl duration-200'>
       
         <div className='relative w-full h-32 mb-8'>
                 <img className='w-full h-full object-contain' src={image} alt='image'/>

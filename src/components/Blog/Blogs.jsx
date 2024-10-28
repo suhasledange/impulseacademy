@@ -14,10 +14,7 @@ const Blogs = () => {
               "Stay <span className='text-text-primary'>Updated</span> with the latest tips, Study hacks & <span className='text-text-primary'>expert insights</span>"
             </p>
             </div>
-            <div className='w-[90%] grid gap-4 mt-8 mb-8' 
-        style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))' }}
-        >
-
+            <div className='w-full flex flex-wrap gap-4 mt-8 mb-8 mx-auto' >
                 {
                   blog.map(b=>(
                     <BlogCard key={b.id} id={b.id} image={b.image} title={b.title} date={b.date}/>

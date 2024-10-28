@@ -18,7 +18,7 @@ const Footer = () => {
     ]
 
   return (
-    <div className="w-full bg-white">
+    <div className="w-full bg-white overflow-x-hidden">
       <div className="bg-blue-btn w-full flex items-center justify-between gap-6">
         <Container className="flex items-center justify-between">
           <h1 className="text-gray-200 font-medium lg:text-lg text-md py-4">
@@ -67,7 +67,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="flex items-center justify-start gap-6 h-full lg:text-xl text-lg">
+            <div className="flex flex-wrap items-center justify-start lg:gap-6 md:gap-3 gap-2 h-full lg:text-xl text-lg">
                 {
                     socialIcon.map(s=>(
                         <a className=" bg-text-head text-white p-2 rounded-full" key={s.id} href="#" target="_blank">{s.Icon}</a>

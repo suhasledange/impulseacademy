@@ -15,12 +15,7 @@ const Courses = () => {
           Pick A <span className="text-text-para">Course</span> To Get Started
         </h1>
 
-        <div
-          className="w-full relative mx-auto lg:mt-16 md:mt-10 mt-6 grid gap-4"
-          style={{
-            gridTemplateColumns: "repeat(auto-fill, minmax(350px, 1fr))",
-          }}
-        >
+        <div className='w-full flex flex-wrap gap-4 mt-8 mb-8 mx-auto' >
           {CourseEnrollInfo.map((c) => (
             <CourseOverviewCard key={c.id} course={c} />
           ))}
@@ -55,12 +50,7 @@ const Courses = () => {
               Resources For Key Physics Topic
             </h1>
 
-            <div
-              className="lg:w-[80%] md:w-[85%] w-[90%] mx-auto grid gap-4 mt-8 mb-8"
-              style={{
-                gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))",
-              }}
-            >
+            <div className='w-[90%] flex flex-wrap gap-4 mt-8 mb-8 mx-auto' >
               {AccessNotes.map((a) => (
                 <DownloadCard
                   key={a.id}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const CourseOverviewCard = ({ course }) => {
   return (
-    <div className="bg-white rounded-lg hover:shadow-xl duration-200 flex flex-col items-center justify-between shadow-lg p-8 w-full max-w-lg mx-auto">
+    <div className="bg-white rounded-lg hover:shadow-xl duration-200 flex flex-col items-center justify-between shadow-lg p-8 flex-grow lg:max-w-[25.5rem] md:max-w-[26rem] max-w-[26rem] lg:mx-0 md:mx-0 mx-auto">
       <div>
 
       <div className='flex items-center justify-start gap-1 mb-5'>

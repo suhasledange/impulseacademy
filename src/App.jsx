@@ -7,7 +7,7 @@ function App() {
     <div className="">
       <Header className=" overflow-x-hidden"/>     
       <Outlet/> 
-      <Footer/>
+      <Footer />
     </div>
   )
 }
