@@ -30,17 +30,30 @@ const Header = () => {
     >
       <Container className="py-1 flex items-center justify-between">
         <NavLink to="/">
-        <div className="md:w-40 md:h-20 w-32 h-16">
-          <img className="object-contain w-full h-full" src={Logo} alt="logo" />
-        </div>
+          <div className="md:w-40 md:h-20 w-32 h-16">
+            <img
+              className="object-contain w-full h-full"
+              src={Logo}
+              alt="logo"
+            />
+          </div>
         </NavLink>
         {/* Desktop Nav */}
         <ul className="md:flex hidden font-medium text-gray-700 tracking-wide items-center gap-8">
           {Navlinks.map((link) => (
             <li key={link.id}>
               <NavLink
-                className={({ isActive }) => isActive ? "font-bold text-text-head" : ""}
-              to={link.link}>{link.title}</NavLink>
+                className={({ isActive }) =>
+                  isActive ? "font-bold text-text-head" : ""
+                }
+                to={link.link}
+                onClick={() => {
+                  setMenuOpen(false);
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
+              >
+                {link.title}
+              </NavLink>
             </li>
           ))}
         </ul>
@@ -79,9 +92,16 @@ const Header = () => {
         <ul className="font-medium text-gray-700 tracking-wide py-4 flex flex-col items-center gap-6 text-lg">
           {Navlinks.map((link) => (
             <li className=" hover:underline underline-offset-2" key={link.id}>
-              <NavLink 
-                className={({ isActive }) => isActive ? "font-bold text-text-head" : ""}
-              to={link.link} onClick={() => setMenuOpen(false)}>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "font-bold text-text-head" : ""
+                }
+                to={link.link}
+                onClick={() => {
+                  setMenuOpen(false);
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
+              >
                 {link.title}
               </NavLink>
             </li>
