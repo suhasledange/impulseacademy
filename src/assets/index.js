@@ -26,7 +26,9 @@ import batch42019 from './2019batch4.png'
 import batch52019 from './2019batch5.png'
 import courseArt from './courseArt.png'
 import laptop from './latop.png'
+import Rectangle72 from './Rectangle72.png'
 export {
+    Rectangle72,
     courseArt,
     batch12019,
     batch22019,

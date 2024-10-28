@@ -1,4 +1,4 @@
-import { ABC, Learning, Popularwoman, Trophy,BookReading, examIcon, onlineExam, Ellipse7, Ellipse8, Rectangle31, batch12019, batch22019, batch32019, batch42019, batch52019 } from "../assets";
+import { ABC, Learning, Popularwoman, Trophy,BookReading, examIcon, onlineExam, Ellipse7, Ellipse8, Rectangle31, batch12019, batch22019, batch32019, batch42019, batch52019, Rectangle72 } from "../assets";
 
 export const Navlinks = [
     {id:1,title:"Home",link:"/"},
@@ -65,6 +65,12 @@ export const benefits = [
     {id:1,image:Rectangle31,title:"Mastering physics for jee",date:"25th Oct 2024"},
     {id:2,image:Rectangle31,title:"To Score High In MHT-CET Physics",date:"26th Oct 2024"},
     {id:3,image:Rectangle31,title:"Mastering physics for jee",date:"25th Oct 2024"},
+  ] 
+  export const blog1 =[
+    {id:1,image:Rectangle72,title:"Mastering Physics for JEE Key Concepts and Study Tips",description:"Preparing for JEE Physics can be tough,but with the right strategies, you can master key topics like mechanics,electromagnetism, and more.",date:"25th Oct 2024"},
+    {id:2,image:Rectangle72,title:"Mastering Physics for JEE Key Concepts and Study Tips",description:"Preparing for JEE Physics can be tough,but with the right strategies, you can master key topics like mechanics,electromagnetism, and more.",date:"26th Oct 2024"},
+    {id:3,image:Rectangle72,title:"Mastering Physics for JEE Key Concepts and Study Tips",description:"Preparing for JEE Physics can be tough,but with the right strategies, you can master key topics like mechanics,electromagnetism, and more.",date:"26th Oct 2024"},
+    {id:4,image:Rectangle72,title:"Mastering Physics for JEE Key Concepts and Study Tips",description:"Preparing for JEE Physics can be tough,but with the right strategies, you can master key topics like mechanics,electromagnetism, and more.",date:"26th Oct 2024"},
   ] 
 
   export const facutyInfo = [
