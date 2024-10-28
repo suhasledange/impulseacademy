@@ -48,7 +48,11 @@ const Footer = () => {
           <ul className="font-medium tracking-wide flex flex-col justify-center gap-2">
             {Navlinks.map((link) => (
               <li className="hover:underline underline-offset-2 lg:text-md text-sm lg:text-center" key={link.id}>
-                <NavLink to={link.link}>{link.title}</NavLink>
+                <NavLink to={link.link}
+                onClick={() => {
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
+                >{link.title}</NavLink>
               </li>
             ))}
           </ul>
