@@ -76,7 +76,7 @@ const Contact = () => {
                         <label className="text-white lg:text-xl text-lg">Message</label>
                         <textarea rows={6} cols={10} className="bg-transparent outline-none resize-none text-white border-b-2 text-sm" name="name" type="text" placeholder="Message"></textarea>
                       </div>
-                     
+                     <button type="submit" className=" active:scale-95 hover:shadow-lg duration-200 shadow-md bg-white py-2 px-6 mt-6 text-text-head font-medium lg:text-md text-sm">Submit</button>
                     </form>
                   </div>
 
