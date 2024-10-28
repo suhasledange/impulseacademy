@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const CourseCard = ({title,description,icon}) => {
   return (
@@ -12,7 +13,15 @@ const CourseCard = ({title,description,icon}) => {
     <p className='text-text-para font-light mb-1 lg:text-md text-sm text-justify'>{description}</p>
     <p className=' text-text-head lg:text-md text-sm underline underline-offset-2 decoration-dotted cursor-pointer font-medium'>Learn more</p>
     <div className='w-full flex flex-col flex-1 items-center h-full justify-end'>
+    <NavLink to="/courses"
+      onClick={()=>{
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }}
+    >
     <button className='active:scale-95 px-10 py-2 mt-2 rounded-full bg-blue-btn hover:bg-text-para duration-300 text-white lg:text-md text-sm'>Course Overview</button>
+
+    </NavLink>
+
     </div>
 </div>
   )

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
 const BlogCard = ({id,image,title,date}) => {
   return (
@@ -18,7 +19,9 @@ const BlogCard = ({id,image,title,date}) => {
         </div>
 
         <div className='flex w-full items-center justify-end'>
+        
             <button className='underline underline-offset-2 decoration-dotted  text-text-head font-medium text-right lg:text-md text-sm '>Read more</button>
+        
         </div>
     </div>
   )
