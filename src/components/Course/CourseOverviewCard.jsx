@@ -6,22 +6,22 @@ const CourseOverviewCard = ({ course }) => {
       <div>
 
       <div className='flex items-center justify-start gap-1 mb-5'>
-        <div className='flex items-center justify-center w-14 h-14'>
+        <div className='flex items-center justify-center lg:w-14 lg:h-14 md:w-12 md:h-12 w-10 h-10'>
             <img className='w-full h-full object-contain' src={course.image} alt={course.id}/>
         </div>
-        <h1 className="text-xl text-text-head font-semibold ml-2">
+        <h1 className="lg:text-xl text-lg text-text-head font-semibold ml-2">
                 {course.title}
         </h1>
       </div>
 
-      <p className="text-gray-700 h-36 text-sm text-justify mb-5">
+      <p className="text-gray-700 lg:h-36 h-auto text-sm text-justify mb-5">
         {course.description}
       </p>
 
-      <div className="flex flex-col md:flex-row justify-between items-start gap-8">
+      <div className="flex flex-col md:flex-row justify-between items-start lg:gap-8 md:gap-6 gap-4">
         <div className="flex-1">
-          <h3 className="text-lg font-semibold text-text-head mb-3">Class 11th Topics</h3>
-          <ul className="list-none space-y-2 text-gray-700">
+          <h3 className="lg:text-lg text-md font-semibold text-text-head mb-3">Class 11th Topics</h3>
+          <ul className="list-none space-y-2 lg:text-md text-sm text-gray-700">
             {course.topics.class11.map((topic, index) => (
               <li key={index} className="flex items-start">
                 <span className="text-text-para mr-2">✓</span>
@@ -45,7 +45,7 @@ const CourseOverviewCard = ({ course }) => {
       </div>
       </div>
       <div className="text-center mt-8">
-        <button className="bg-blue-btn duration-200 active:scale-95 hover:bg-text-para text-white font-semibold py-2 px-8 rounded-full shadow-lg">
+        <button className="bg-blue-btn duration-200 active:scale-95 hover:bg-text-para text-white font-semibold py-2 px-8 rounded-full shadow-lg lg:text-md text-sm">
           Enroll Now
         </button>
       </div>

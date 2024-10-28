@@ -8,10 +8,10 @@ const About = () => {
     <div className="bg-white w-full">
       <Container className="my-16">
         <div className="mb-16">
-          <h1 className="text-3xl text-text-head font-semibold mb-6">
+          <h1 className="lg:text-3xl text-2xl text-text-head font-semibold mb-6">
             About Our Academy
           </h1>
-          <p className=" text-text-para text-justify">
+          <p className=" text-text-para lg:text-md text-sm text-justify">
             The Impulse academy, established in 2010 in Bhusawal, has been
             dedicated to providing quality education for both board and
             competitive exams. Over the years, it has become a trusted institute

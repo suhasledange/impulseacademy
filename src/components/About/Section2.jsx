@@ -4,7 +4,7 @@ import { achievers } from '../../constant'
 const Section2 = () => {
   return (
     <div>
-        <h1 className=' text-text-head font-semibold text-3xl text-center my-16'>Meet Our Top Achievers</h1>
+        <h1 className=' text-text-head font-semibold lg:text-3xl text-2xl text-center my-16'>Meet Our Top Achievers</h1>
     
         <div className='md:w-[90%] w-[95%] mx-auto grid gap-4 mt-8 mb-8' 
         style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))' }}

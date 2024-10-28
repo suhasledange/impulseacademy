@@ -12,13 +12,13 @@ const BlogCard = ({id,image,title,date}) => {
         </div>
             
         <div className='w-full justify-end h-full'>
-            <h1 className='mb-6 capitalize text-text-head font-semibold text-lg'>{title}</h1>
+            <h1 className='mb-6 capitalize text-text-head font-semibold lg:text-lg text-md'>{title}</h1>
             <p className='text-text-head text-sm'>{date}</p>
             
         </div>
 
         <div className='flex w-full items-center justify-end'>
-            <button className='underline underline-offset-2 decoration-dotted  text-text-head font-medium text-right'>Read more</button>
+            <button className='underline underline-offset-2 decoration-dotted  text-text-head font-medium text-right lg:text-md text-sm '>Read more</button>
         </div>
     </div>
   )

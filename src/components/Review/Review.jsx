@@ -8,9 +8,7 @@ const Review = () => {
     <div className='w-full bg-white mb-20'>
         <Container>
             <h1 className='text-2xl mb-6 text-text-head font-semibold'>What Our Students Says ?</h1>
-            <div className='w-full grid gap-4 mt-8 mb-8' 
-        style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(500px, 1fr))' }}
-        >
+            <div className='w-full flex flex-wrap gap-4 mt-8 mb-8' >
                 {
                     review.map(r=>(
                         <ReviewCard key={r.id} image={r.image} review={r.review} name={r.name} batch={r.batch}/>

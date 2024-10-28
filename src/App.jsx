@@ -4,11 +4,11 @@ import { Footer, Header} from "./components"
 function App() {
 
   return (
-    <>
-      <Header/>     
+    <div className="">
+      <Header className=" overflow-x-hidden"/>     
       <Outlet/> 
       <Footer/>
-    </>
+    </div>
   )
 }
 

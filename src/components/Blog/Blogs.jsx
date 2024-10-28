@@ -9,7 +9,7 @@ const Blogs = () => {
         <Container className="flex flex-col items-center justify-center">
 
             <div className='text-center'>
-            <h1 className='text-text-head mb-5 text-3xl font-semibold'>Latest From Our Blog</h1>
+            <h1 className='text-text-head mb-5 lg:text-3xl text-2xl font-semibold'>Latest From Our Blog</h1>
             <p className='w-72 mx-auto text-gray-700 '>
               "Stay <span className='text-text-primary'>Updated</span> with the latest tips, Study hacks & <span className='text-text-primary'>expert insights</span>"
             </p>

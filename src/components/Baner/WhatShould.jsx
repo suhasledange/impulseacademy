@@ -6,13 +6,13 @@ import {
   } from "../../assets";
 const WhatShould = () => {
   return (
-    <div className="">
+    <div>
             
     <div className="flex items-center justify-center gap-10">
-      <h1 className="text-3xl font-semibold text-text-head">
+      <h1 className="lg:text-3xl text-2xl font-semibold text-text-head">
         What We Stand For{" "}
       </h1>
-      <div className="w-12 h-9">
+      <div className="lg:w-12 lg:h-9 md:w-10 md:h-7 w-9 h-6">
         <img
           className=" object-contain w-full h-full"
           src={growth}
@@ -31,7 +31,7 @@ const WhatShould = () => {
         />
       </div>
       <div>
-        <p className=" text-text-para text-md text-justify w-[90%] mx-auto">
+        <p className=" text-text-para lg:text-md text-sm text-justify lg:w-[90%] md:w-[93%] w-full mx-auto">
           At <span className="text-black">Impulse Academy</span>, we
           believe in empowering students through expert guidance,
           comprehensive resources, and a commitment to academic
@@ -44,7 +44,7 @@ const WhatShould = () => {
           results,we are dedicated to helping students achieve their
           dreams
         </p>
-        <div className="absolute -bottom-6 right-44 rounded-full bg-gray-100 w-14 h-14">
+        <div className="absolute -bottom-6 right-44 rounded-full bg-gray-100 lg:w-14 lg:h-14 md:w-12 md:h-12 w-10 h-10">
           <img
             className="w-full h-full object-contain"
             src={Mortarboard}
