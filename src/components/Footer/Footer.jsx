@@ -67,10 +67,10 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="flex flex-wrap items-center justify-start lg:gap-6 md:gap-3 gap-2 h-full lg:text-xl text-lg">
+            <div className="flex flex-wrap items-center justify-start lg:gap-6 md:gap-3 gap-2 h-full lg:text-xl md:text-lg text-md">
                 {
                     socialIcon.map(s=>(
-                        <a className=" bg-text-head text-white p-2 rounded-full" key={s.id} href="#" target="_blank">{s.Icon}</a>
+                        <a className=" bg-text-head text-white lg:p-2 p-[0.35rem] rounded-full" key={s.id} href="#" target="_blank">{s.Icon}</a>
                     ))
                 }
             </div>

@@ -36,13 +36,18 @@ const Courses = () => {
         </div>
 
         {/* notes */}
-        <div className="mt-20 flex flex-col items-center justify-center w-full">
-          {/* <div className="relative rounded-3xl text-lg font-medium w-full mx-auto max-w-screen-sm text-center bg-back-about2 p-9 text-white">
-            Physics Researches Hub
-              <img className="w-56 absolute -top-28 right-40 lg:right-52 md:right-56 h-auto object-contain" src={laptop} />
-          </div> */}
+        <div className="mt-20 flex relative flex-col items-center justify-center w-full max-w-screen-lg mx-auto">
+          <div className="rounded-3xl text-lg font-medium w-full mx-auto text-center text-white">
+              
+               <div className="w-full -mb-8 flex items-center justify-center">
+              <img className="w-56 ml-3 h-auto object-contain" src={laptop} />
+              </div>    
           
-          <Baner2 title="Physics Researches Hub" image={laptop} className1="justify-between bg-text-head max-w-screen-lg" className="w-[90%] lg:w-[30%] md:w-[50%]" imageWidth="w-28 h-24 pb-3"/>
+              <Baner2 title="Physics Resources Hub" className1="justify-center text-center bg-text-head w-full lg:py-10 py-8" className="w-[100%] lg:w-[30%] md:w-[50%]" imageWidth="w-28 h-24 pb-3"/>
+          
+          </div>
+          
+         
 
           <div className="mt-16 flex flex-col items-center justify-center w-full">
             <h1 className="text-2xl md:w-[50%] lg:w-[30%] w-[80%] text-center text-text-head">
@@ -50,7 +55,7 @@ const Courses = () => {
               Resources For Key Physics Topic
             </h1>
 
-            <div className='w-[90%] flex flex-wrap gap-4 mt-8 mb-8 mx-auto' >
+            <div className='w-[95%] flex flex-wrap gap-4 mt-8 mb-8 mx-auto' >
               {AccessNotes.map((a) => (
                 <DownloadCard
                   key={a.id}

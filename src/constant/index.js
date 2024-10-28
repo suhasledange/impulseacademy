@@ -42,13 +42,7 @@ export const benefits = [
       bgColor: "bg-back-green",
     },
     {
-      id: 5,
-      text: "Extensive Practice",
-      icon: ABC,
-      bgColor: "bg-back-pink",
-    },
-    {
-        id: 6,
+        id: 5,
         text: "Continuous Practice Papers",
         icon: ABC,
         bgColor: "bg-back-pink",

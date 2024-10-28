@@ -2,7 +2,7 @@ import React from 'react'
 
 const CourseCard = ({title,description,icon}) => {
   return (
-    <div className='shadow-lg flex flex-grow flex-col lg:max-w-[25.5rem] lg:mx-0 md:mx-0 mx-auto max-w-[26rem] justify-center py-8 px-6 rounded-xl hover:shadow-xl duration-200 min-h-[24rem]'>
+    <div className='shadow-lg flex flex-grow flex-col lg:max-w-[25rem] lg:mx-auto md:mx-0 mx-auto max-w-[26rem] justify-center py-8 px-6 rounded-xl hover:shadow-xl duration-200 min-h-[24rem]'>
     <div className='flex items-center justify-start gap-2 border-b-2 border-gray-400 pb-4 mb-4'>
             <div className='lg:w-14 lg:h-14 md:w-12 md:h-12 w-10 h-10 bg-back-blue-light rounded-full p-2'>
                 <img className='w-full h-full object-contain' src={icon} alt='icn'/>

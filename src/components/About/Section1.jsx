@@ -11,7 +11,7 @@ const Section1 = () => {
     </h1>
 
     <div className="flex md:flex-row flex-col items-start justify-between lg:gap-14 md:gap-6 gap-4 max-w-screen-lg mx-auto">
-      <div className="min-w-80 h-96 mx-auto flex bg-back-about items-center justify-center border-back-about1 border-8 overflow-hidden rounded-full">
+      <div className="lg:min-w-80 lg:h-96 min-w-64 h-72 mx-auto flex bg-back-about items-center justify-center border-back-about1 border-8 overflow-hidden rounded-full">
         <img
           className="w-full h-full object-cover"
           src={AboutFaculty}
