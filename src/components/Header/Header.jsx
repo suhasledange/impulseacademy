@@ -28,7 +28,7 @@ const Header = () => {
         isScrolled ? "shadow-md" : ""
       }`}
     >
-      <Container className="py-2 flex items-center justify-between">
+      <Container className="py-1 flex items-center justify-between">
         <NavLink to="/">
         <div className="md:w-40 md:h-20 w-32 h-16">
           <img className="object-contain w-full h-full" src={Logo} alt="logo" />
