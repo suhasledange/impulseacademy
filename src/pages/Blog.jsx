@@ -6,7 +6,7 @@ import BlogCard1 from '../components/Blog/BlogCard1';
 import { FaCaretDown } from 'react-icons/fa';
 const Blog = () => {
   return (
-    <div className='bg-white w-full'>
+    <div className='bg-white w-full overflow-x-hidden'>
     <Container className="py-10">
       <div className='text-center w-full'>
           <h1 className='text-text-head lg:text-3xl text-2xl mb-2 font-semibold'>Latest Articles & Updates</h1>

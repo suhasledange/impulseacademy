@@ -8,24 +8,24 @@ const Contact = () => {
     {
       id: 1,
       title: "Shanti Nagar Bhusawal",
-      icon: <IoLocationSharp className="text-xl" />,
+      icon: <IoLocationSharp className="text-2xl" />,
     },
-    { id: 2, title: "78752552152", icon: <FaPhoneAlt /> },
+    { id: 2, title: "78752552152", icon: <FaPhoneAlt className="text-xl" /> },
     {
       id: 3,
       title: "manobadgujar@gmail.com",
-      icon: <IoMdMail className="text-xl" />,
+      icon: <IoMdMail className="text-2xl" />,
     },
   ];
   return (
-    <div className="bg-white w-full pt-8">
+    <div className="bg-white w-full pt-8 overflow-x-hidden">
 
         <Container>
           <div className="w-full text-center">
-            <h1 className="lg:text-3xl text-xl text-text-head  lg:w-[36%] md:w[30%] w-[55%] font-semibold mx-auto mb-5">
+            <h1 className="lg:text-3xl text-xl text-text-head  lg:w-[36%] md:w[30%] w-[70%] font-semibold mx-auto mb-5">
               Kickstart Your Career with Impulse Academy
             </h1>
-            <p className="text-text-para text-md lg:w-[50%] md:w[40%] w-[90%] mx-auto">
+            <p className="text-text-para text-md lg:w-[50%] md:w[40%] w-[100%] mx-auto">
               Join hands with us at Impulse Academy,where your success is our
               priority Get the guidance you need to excel and achieve your
               academic dreams.
@@ -50,10 +50,10 @@ const Contact = () => {
                   {cont.map((c) => (
                     <div
                       key={c.id}
-                      className="flex items-center text-text-head bg-white shadow-xl p-4 rounded-2xl lg:w-[15rem] lg:h-[13rem] md:w-[12rem] md:h-[12rem] w-[8rem] h-[12rem] justify-center flex-col gap-3 text-center"
+                      className="flex items-center text-text-head bg-white shadow-xl p-4 rounded-2xl lg:w-[15rem] lg:h-[13rem] md:w-[12rem] md:h-[12rem] w-[7rem] h-[12rem] justify-center flex-col gap-3 text-center"
                     >
                       {c.icon}
-                      <h1 className="lg:text-md text-sm text-md overflow-hidden break-words w-full">{c.title}</h1>
+                      <h1 className="lg:text-md md:text-md text-sm overflow-hidden break-words w-full">{c.title}</h1>
                     </div>
                   ))}
                 </div>
@@ -76,7 +76,7 @@ const Contact = () => {
                         <label className="text-white lg:text-xl text-lg">Message</label>
                         <textarea rows={6} cols={10} className="bg-transparent outline-none resize-none text-white border-b-2 text-sm" name="name" type="text" placeholder="Message"></textarea>
                       </div>
-                     <button type="submit" className=" active:scale-95 hover:shadow-lg duration-200 shadow-md bg-white py-2 px-6 mt-6 text-text-head font-medium lg:text-md text-sm">Submit</button>
+                     <button type="submit" className=" active:scale-95 hover:shadow-lg duration-200 shadow-md bg-white py-2 px-6 mt-6 text-text-head font-medium lg:text-md text-sm mb-8">Submit</button>
                     </form>
                   </div>
 
