@@ -50,7 +50,7 @@ const Contact = () => {
                   {cont.map((c) => (
                     <div
                       key={c.id}
-                      className="flex items-center text-text-head bg-white shadow-xl p-4 rounded-2xl lg:w-[15rem] lg:h-[13rem] md:w-[12rem] md:h-[12rem] w-[7rem] h-[12rem] justify-center flex-col gap-3 text-center"
+                      className="flex items-center text-text-head bg-white box-shadow-contact p-4 rounded-2xl lg:w-[15rem] lg:h-[13rem] md:w-[12rem] md:h-[12rem] w-[7rem] h-[12rem] justify-center flex-col gap-3 text-center"
                     >
                       {c.icon}
                       <h1 className="lg:text-md md:text-md text-sm overflow-hidden break-words w-full">{c.title}</h1>
