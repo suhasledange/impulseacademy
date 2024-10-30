@@ -83,17 +83,14 @@ const Contact = () => {
               <div className="map h-auto w-full mx-auto shadow-lg border-2 p-2 bg-white">
                 <iframe
                   className="w-full"
-                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5266.153801901746!2d75.80223764836367!3d21.043364182182714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPrathamik%20Shikshak%20colony%2C%20Near%20Dnyaneshwar%20Garden%2C%20Shanti%20Nagar%2C%20Bhusawal%20!5e0!3m2!1sen!2sin!4v1730262336642!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14894.372625460826!2d75.78133614414158!3d21.048958815710513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPrathamik%20Shikshak%20colony%2C%20Near%20Dnyaneshwar%20Garden%2C%20Shanti%20Nagar%2C%20Bhusawal%20!5e0!3m2!1sen!2sin!4v1730267023171!5m2!1sen!2sin"
                   allowFullScreen=""
                   loading="lazy"
                   height="550"
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
-
               </div>
-
-
             </Container>
             </div>
         </div>
