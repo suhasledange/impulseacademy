@@ -1,10 +1,9 @@
 import React from "react";
 import Container from "../Container";
-import { blog } from "../../constant";
 import BlogCard from "./BlogCard";
-import { FaCaretDown } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { useBlogsContext } from "../../context/BlogProvider";
 const Blogs = () => {
+  const { blogsData } = useBlogsContext();
   return (
     <div className="w-full bg-white mb-20">
       <Container className="flex flex-col items-center justify-center">
@@ -19,27 +18,13 @@ const Blogs = () => {
           </p>
         </div>
         <div className="w-full flex flex-wrap gap-4 mt-8 mb-8 mx-auto">
-          {blog.map((b) => (
-            <BlogCard
-              key={b.id}
-              id={b.id}
-              image={b.image}
-              title={b.title}
-              date={b.date}
-            />
+          {blogsData?.map((b,i) => (
+            <div className=" lg:mx-0 md:mx-0 mx-auto" key={b.$id} >
+              <BlogCard {...b} count={i + 1}/>
+            </div>
           ))}
         </div>
         <div>
-          <NavLink
-            to="/blogs"
-            onClick={() => {
-              window.scrollTo({ top: 0, behavior: "smooth" });
-            }}
-          >
-            <button className="bg-blue-btn flex items-center justify-center gap-2 text-white active:scale-95 hover:bg-text-para duration-200 hover:shadow-lg rounded-full py-2 px-6">
-              Read More <FaCaretDown className="text-xl" />
-            </button>
-          </NavLink>
         </div>
       </Container>
     </div>

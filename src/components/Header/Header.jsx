@@ -4,12 +4,13 @@ import { Logo } from "../../assets";
 import { Navlinks } from "../../constant";
 import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { AiOutlineClose } from "react-icons/ai"; // Close icon
+import { AiOutlineClose } from "react-icons/ai"; 
+import { useBlogsContext } from "../../context/BlogProvider";
 
 const Header = () => {
+  const {  setOffset} = useBlogsContext();
   const [isScrolled, setIsScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 0);
@@ -50,6 +51,12 @@ const Header = () => {
                 onClick={() => {
                   setMenuOpen(false);
                   window.scrollTo({ top: 0, behavior: "smooth" });
+                  if(link.fetch){
+                    setOffset(3)
+                  }
+                  else{
+                    setOffset(0)
+                  }
                 }}
               >
                 {link.title}
@@ -100,6 +107,12 @@ const Header = () => {
                 onClick={() => {
                   setMenuOpen(false);
                   window.scrollTo({ top: 0, behavior: "smooth" });
+                  if(link.fetch){
+                    setOffset(3)
+                  }
+                  else{
+                    setOffset(0)
+                  }
                 }}
               >
                 {link.title}

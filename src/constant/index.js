@@ -1,11 +1,11 @@
 import { ABC, Learning, Popularwoman, Trophy,BookReading, examIcon, onlineExam, Ellipse7, Ellipse8, Rectangle31, batch12019, batch22019, batch32019, batch42019, batch52019, Rectangle72 } from "../assets";
 
 export const Navlinks = [
-    {id:1,title:"Home",link:"/"},
-    {id:2,title:"Courses",link:"/courses"},
-    {id:3,title:"About Us",link:"/about"},
-    {id:4,title:"Blog",link:"/blogs"},
-    {id:5,title:"Contact",link:"/contact"},
+    {id:1,title:"Home",link:"/",fetch:false},
+    {id:2,title:"Courses",link:"/courses",fetch:false},
+    {id:3,title:"About Us",link:"/about",fetch:false},
+    {id:4,title:"Blogs",link:"/blogs",fetch:true},
+    {id:5,title:"Contact",link:"/contact",fetch:false},
 ]
 
 export const Counterdata =[

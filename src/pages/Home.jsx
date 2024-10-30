@@ -6,6 +6,9 @@ import Blogs from '../components/Blog/Blogs'
 import Course from '../components/Course/Course'
 
 const Home = () => {
+
+  
+
   return (
     <section>
     <section>
@@ -19,7 +22,7 @@ const Home = () => {
             <Review/>
     </section>
     <section>
-        <Blogs/>
+        <Blogs />
     </section>
     </section>
   )
