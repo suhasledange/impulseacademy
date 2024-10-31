@@ -23,7 +23,9 @@ const BlogCard = ({$id,title,blogImage,$updatedAt,count
         </div>
 
         <div className='flex w-full items-center justify-end'>
-        <Link to={`/blog/${$id}`}>
+        <Link onClick={
+          ()=>{ window.scrollTo({ top: 0, behavior: "smooth" });}
+        } to={`/blog/${$id}`}>
             <button className='underline underline-offset-4 hover:decoration-solid decoration-dotted duration-150 hover:text-text-count text-text-head font-medium text-right lg:text-md text-sm '>Read more</button>  
         </Link>
         </div>

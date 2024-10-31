@@ -22,7 +22,9 @@ const Footer = () => {
           <h1 className="text-gray-200 font-medium lg:text-lg text-md py-4">
             Ready to get Started ?
           </h1>
-          <Link to="/contact">
+          <Link to="/contact"  onClick={() => {
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                  }}>
             <button className=" border-2 px-6 py-1 lg:text-md text-sm hover:shadow-xl duration-200 rounded-xl text-white">
               Contact us
             </button>
