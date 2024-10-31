@@ -1,6 +1,5 @@
 import React from 'react'
 import Container from '../components/Container'
-import { IoSearch } from "react-icons/io5";
 import { FaCaretDown } from 'react-icons/fa';
 import { useBlogsContext } from '../context/BlogProvider';
 import BlogCard from '../components/Blog/BlogCard';
