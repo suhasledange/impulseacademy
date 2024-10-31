@@ -43,6 +43,22 @@ export class Service {
     }
   }
 
+  async getHomeBlogs(){
+    try {
+        return await this.databases.listDocuments(
+            conf.APPWRITE_DATABASE_ID,
+            conf.APPWRITE_COLLECTION_ID,
+            [
+                Query.limit(3),
+                Query.offset(0)
+            ]
+        );
+
+    } catch (error) {
+        throw error
+    }
+  }
+
   getFilePreview(fileId){
     return this.bucket.getFilePreview(conf.APPWRITE_BUCKET_ID,fileId)
   }

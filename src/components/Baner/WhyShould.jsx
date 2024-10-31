@@ -19,7 +19,7 @@ const WhyShould = () => {
 
       {/* Right Side - Zig-Zag Benefits List */}
       <div className="flex flex-col lg:gap-12 md:gap-10 gap-8 lg:w-[55%] md:w-[70%] w-[100%] lg:self-end self-center">
-        {benefits.map((benefit, index) => (
+        {benefits && benefits?.map((benefit, index) => (
           <div
             key={benefit.id}
             className={`flex items-center lg:gap-4 md:gap-3 gap-2 shadow-lg rounded-full w-80 ${

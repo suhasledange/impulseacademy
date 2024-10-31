@@ -10,7 +10,7 @@ const Course = () => {
     <h1 className='text-center lg:mb-6 mb-0 text-text-head lg:text-3xl text-2xl font-semibold'>Courses We Offer</h1>
     <div className='w-full flex flex-wrap gap-4 mt-8 mb-8' >
     {
-        courses.map(c =>(
+       courses && courses?.map(c =>(
             <CourseCard key={c.id} title={c.title} description={c.description} icon={c.icon}/>
         ))
     }

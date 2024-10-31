@@ -6,7 +6,7 @@ const Counter = () => {
   return (
     <div className='mt-24 '>
       <div className='flex flex-wrap items-center lg:gap-0 md:gap-6 justify-between w-full mx-auto'>
-        {Counterdata.map((data) => (
+        {Counterdata && Counterdata?.map((data) => (
             <div key={data.id} className='flex items-center justify-between'>
             <div className={`${data.id < 5 ? "border-r-2":""}  px-8`}>
               <h3 className='text-sm mb-2 font-medium text-gray-600'>{data.title}</h3>

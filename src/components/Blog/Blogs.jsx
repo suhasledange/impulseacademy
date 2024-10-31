@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Container from "../Container";
 import BlogCard from "./BlogCard";
-import { useBlogsContext } from "../../context/BlogProvider";
+import service from "../../appwrite/service";
 const Blogs = () => {
-  const { blogsData } = useBlogsContext();
+
+  const  [blogsData,setBlogs]  = useState([]);
+  useEffect(() => {
+    service.getHomeBlogs().then((blog) => {
+      if (blog) {
+        setBlogs(blog.documents);
+      }
+    });
+  }, []);
+  
   return (
     <div className="w-full bg-white mb-20">
       <Container className="flex flex-col items-center justify-center">
@@ -18,11 +27,16 @@ const Blogs = () => {
           </p>
         </div>
         <div className="w-full flex flex-wrap gap-4 mt-8 mb-8 mx-auto">
-          {blogsData?.map((b,i) => (
-            <div className=" lg:mx-0 md:mx-0 mx-auto" key={b.$id} >
+          
+
+            {blogsData.length ? blogsData?.map((b,i) => (
+              <div className=" lg:mx-0 md:mx-0 mx-auto" key={b.$id} >
               <BlogCard {...b} count={i + 1}/>
-            </div>
-          ))}
+              </div>
+            ))
+            : <div><h1 className="text-text-head text-lg">No Data Found</h1></div>
+          }
+        
         </div>
         <div>
         </div>

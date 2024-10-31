@@ -28,7 +28,7 @@ const Courses = () => {
           </h1>
           <div className="flex flex-wrap items-center justify-center lg:gap-10 gap-7">
             {publications.map((p) => (
-              <div className=" bg-gray-300 cursor-pointer hover:shadow-xl shadow-md duration-200 text-text-head px-6 py-2 rounded-lg lg:text-md text-sm">
+              <div key={p.id} className=" bg-gray-300 cursor-pointer hover:shadow-xl shadow-md duration-200 text-text-head px-6 py-2 rounded-lg lg:text-md text-sm">
                 {p.title}
               </div>
             ))}

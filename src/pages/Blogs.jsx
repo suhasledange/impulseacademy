@@ -25,11 +25,11 @@ const Blogs = () => {
 
       <div className='w-full flex flex-wrap gap-4 my-12 mx-auto' >
                 {
-                  blogsData.map((b,i)=>(
+                 blogsData ? blogsData?.map((b,i)=>(
                     <div key={b.$id} className='lg:mx-0 md:mx-0 mx-auto'>
                     <BlogCard count={i+1}  {...b}/>
                  </div>
-                  ))
+                  )) : <div><h1 className='text-text-head text-lg'>No Data Found</h1></div>
                 }
        </div>
 

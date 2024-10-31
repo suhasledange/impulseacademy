@@ -5,15 +5,15 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 const Contact = () => {
   const cont = [
+    // {
+    //   id: 1,
+    //   title: "Shanti Nagar Bhusawal",
+    //   icon: <IoLocationSharp className="text-2xl" />,
+    // },
+    { id: 1, title: "78752552152", icon: <FaPhoneAlt className="text-xl" /> },
     {
-      id: 1,
-      title: "Shanti Nagar Bhusawal",
-      icon: <IoLocationSharp className="text-2xl" />,
-    },
-    { id: 2, title: "78752552152", icon: <FaPhoneAlt className="text-xl" /> },
-    {
-      id: 3,
-      title: "manobadgujar@gmail.com",
+      id: 2,
+      title: "badgujarmanoj77@gmail.com",
       icon: <IoMdMail className="text-2xl" />,
     },
   ];
@@ -47,10 +47,10 @@ const Contact = () => {
               
               <div className=" absolute -top-32 left-0 right-0 w-full">
                 <div className="flex items-center justify-center lg:gap-8 md:gap-3 gap-2">
-                  {cont.map((c) => (
+                  {cont && cont?.map((c) => (
                     <div
                       key={c.id}
-                      className="flex items-center text-text-head bg-white box-shadow-contact p-4 rounded-2xl lg:w-[15rem] lg:h-[13rem] md:w-[12rem] md:h-[12rem] w-[7rem] h-[12rem] justify-center flex-col gap-3 text-center"
+                      className="flex items-center text-text-head bg-white box-shadow-contact p-4 rounded-2xl lg:w-[15rem] lg:h-[13rem] md:w-[12rem] md:h-[12rem] w-[12rem] h-[12rem] justify-center flex-col gap-3 text-center"
                     >
                       {c.icon}
                       <h1 className="lg:text-md md:text-md text-sm overflow-hidden break-words w-full">{c.title}</h1>
@@ -68,8 +68,8 @@ const Contact = () => {
                       </div>
 
                       <div className="flex flex-col w-full gap-2 mb-4">
-                        <label className="text-white lg:text-xl text-lg">Contact</label>
-                        <input className="bg-transparent outline-none text-sm text-white border-b-2" name="name" type="text" placeholder="Enter Your Name"/>
+                        <label className="text-white lg:text-xl text-lg">Email</label>
+                        <input className="bg-transparent outline-none text-sm text-white border-b-2" name="name" type="text" placeholder="Enter Your Email"/>
                       </div>
 
                       <div className="flex flex-col w-full gap-2 mb-4">

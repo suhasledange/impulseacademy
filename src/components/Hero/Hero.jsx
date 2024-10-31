@@ -2,6 +2,7 @@ import React from 'react'
 import Container from '../Container'
 import { CourseAssign, Ellipse1, HomeFaculty, OpenBook } from '../../assets'
 import Counter from './Counter'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -15,7 +16,9 @@ const Hero = () => {
             Learn from top educators, master competitive exams,
             and secure your future success.
             </p>
-            <button className='bg-blue-btn hover:bg-text-para duration-300 hover:drop-shadow-lg mt-6 text-white px-8 py-4 text-sm lg:text-md md:text-md rounded-full active:scale-95'>Explore Courses</button>
+            <Link to="/courses">
+            <button  className='bg-blue-btn hover:bg-text-para duration-300 hover:drop-shadow-lg mt-6 text-white px-8 py-4 text-sm lg:text-md md:text-md rounded-full active:scale-95'>Explore Courses</button>
+            </Link>
         </div>
 
         <div className='hidden md:block'>
