@@ -31,7 +31,7 @@ const WhatShould = () => {
         />
       </div>
       <div>
-        <p className=" text-text-para lg:text-md text-sm text-left lg:w-[90%] md:w-[93%] w-full mx-auto">
+        <p className=" text-text-para lg:text-md text-sm text-justify lg:w-[90%] md:w-[93%] w-full mx-auto">
           At <span className="text-black">Impulse Academy</span>, we
           believe in empowering students through expert guidance,
           comprehensive resources, and a commitment to academic
