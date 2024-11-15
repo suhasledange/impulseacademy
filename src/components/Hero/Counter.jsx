@@ -9,7 +9,7 @@ const Counter = () => {
         {Counterdata && Counterdata?.map((data) => (
             <div key={data.id} className='flex items-center justify-between mb-6'>
             <div className={`${data.id < 5 ? "lg:border-r-2":""}  px-8`}>
-              <h3 className='text-sm mb-2 font-medium text-gray-600'>{data.title}</h3>
+              <p className='text-sm mb-2 font-medium text-gray-600'>{data.title}</p>
               <div className='md:text-3xl text-2xl flex items-center font-bold text-transparent bg-clip-text bg-gradient-to-b from-text-count to-blue-200'>
                 <AnimateNumber n={data.count} />
               </div>
