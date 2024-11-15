@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../components/Container";
-import { AccessNotes, CourseEnrollInfo, publications, review } from "../constant";
+import { AccessNotes, CourseEnrollInfo, publications, review, review1 } from "../constant";
 import CourseOverviewCard from "../components/Course/CourseOverviewCard";
 import Baner2 from "../components/Baner/Baner2";
 import { courseArt, laptop } from "../assets";
@@ -74,7 +74,7 @@ const Courses = () => {
             Success Stories!!!
           </h1>
           <div className='w-full flex flex-wrap gap-4 mt-8 mb-8' >
-            {review.map((r) => (
+            {review1.map((r) => (
               <ReviewCard
                 key={r.id}
                 image={r.image}

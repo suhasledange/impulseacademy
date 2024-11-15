@@ -16,7 +16,7 @@ const Footer = () => {
   ];
 
   return (
-    <div className="w-full bg-white overflow-x-hidden">
+    <footer className="w-full bg-white overflow-x-hidden">
       <div className="bg-blue-btn w-full flex items-center justify-between gap-6">
         <Container className="flex items-center justify-between">
           <h1 className="text-gray-200 font-medium lg:text-lg text-md py-4">
@@ -44,7 +44,7 @@ const Footer = () => {
             <p className="mb-2">Prof. Manoj P. Badgujar</p>
             <p className="">
               Branch : Prathamik Shikshak colony, Near Dnyaneshwar Garden,
-              Shanti Nagar, Bhusawa
+              Shanti Nagar, Bhusawal
             </p>
           </div>
         </div>
@@ -102,7 +102,7 @@ const Footer = () => {
       <div className="lg:text-[0.85rem] md:text-[0.83rem] text-[0.7rem] flex gap-5 lg:px-3 md:px-2 px-1 items-center justify-between w-full bg-text-head py-1 mt-1 text-white font-normal">
        <span> Designed and developed by WingzSphere Tech</span> © 2024 ImpulseAcademy, Inc. All Rights Reserved
       </div>
-    </div>
+    </footer>
   );
 };
 

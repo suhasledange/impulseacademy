@@ -44,7 +44,7 @@ const Hero = () => {
         </div>
 
         </div>
-        <div className='hidden lg:block'>
+        <div className=''>
             <Counter/>
         </div>
 

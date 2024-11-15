@@ -27,7 +27,16 @@ import batch52019 from './2019batch5.png'
 import courseArt from './courseArt.png'
 import laptop from './latop.png'
 import Rectangle72 from './Rectangle72.png'
+import reviewImg1 from './Aditya.jpg'
+import reviewImg2 from './Grishma.jpg'
+import reviewImg3 from './Krutika.jpg'
+import reviewImg4 from './Eshan.jpg'
+
 export {
+    reviewImg1,
+    reviewImg2,
+    reviewImg3,
+    reviewImg4,
     Rectangle72,
     courseArt,
     batch12019,
