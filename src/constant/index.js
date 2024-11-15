@@ -30,7 +30,7 @@ export const Navlinks = [
 ];
 
 export const Counterdata = [
-  { id: 1, title: "Total Students Entrolled", count: 1500 },
+  { id: 1, title: "Total Students Enrolled", count: 1500 },
   { id: 2, title: "JEE Qualified Students", count: 100 },
   { id: 3, title: "MHT CET Qualified", count: 300 },
   { id: 4, title: "Years Of Teaching Experience", count: 14 },
