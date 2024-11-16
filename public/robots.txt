@@ -1,4 +1,5 @@
 User-agent: *
-Disallow:
+Disallow: /private-data/
+Disallow: /admin/
 
 Sitemap: https://impulse-academy.in/sitemap.xml
