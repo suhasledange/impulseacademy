@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../components/Container";
 import { AccessNotes, CourseEnrollInfo, publications, review, review1 } from "../constant";
+import { Helmet } from "react-helmet";
 import CourseOverviewCard from "../components/Course/CourseOverviewCard";
 import Baner2 from "../components/Baner/Baner2";
 import { courseArt, laptop } from "../assets";
@@ -10,6 +11,19 @@ import ReviewCard from "../components/Review/ReviewCard";
 const Courses = () => {
   return (
     <div className="bg-white w-full">
+
+    <Helmet>
+        <title>Explore Physics Courses | Impulse Academy</title>
+        <meta
+          name="description"
+          content="Choose from a variety of physics courses at Impulse Academy and start learning today. Access free resources and enroll in top-quality programs."
+        />
+        <meta
+          name="keywords"
+          content="Physics courses, online learning, physics resources, Impulse Academy, free notes, learn physics"
+        />
+      </Helmet>
+
       <Container className="lg:my-16 my-8">
         <h1 className="text-text-head lg:text-3xl text-2xl font-semibold text-center">
           Pick A <span className="text-text-para">Course</span> To Get Started

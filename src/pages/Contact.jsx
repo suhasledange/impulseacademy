@@ -3,6 +3,7 @@ import Container from "../components/Container";
 import { IoLocationSharp } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import { Helmet } from 'react-helmet';
 const Contact = () => {
   const cont = [
     // {
@@ -19,6 +20,18 @@ const Contact = () => {
   ];
   return (
     <div className="bg-white w-full pt-8 overflow-x-hidden">
+
+<Helmet>
+        <title>Contact Impulse Academy</title>
+        <meta
+          name="description"
+          content="Get in touch with Impulse Academy. Join hands with us for your academic journey. Reach out for inquiries, support, or admissions."
+        />
+        <meta
+          name="keywords"
+          content="Impulse Academy, contact, reach out, phone, email, physics courses, academic support"
+        />
+      </Helmet>
 
         <Container>
           <div className="w-full text-center">

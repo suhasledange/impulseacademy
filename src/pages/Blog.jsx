@@ -20,6 +20,7 @@ const Blog = () => {
 
   return blog ? (
     <div className="lg:my-16 md:my-8 my-6">
+      
       <Container className="flex flex-wrap items-start justify-start lg:gap-10 md:gap-7 gap-4">
         <div className="lg:flex-[0.6] flex justify-center mb-4 relative rounded-xl p-2 md:h-[28rem] lg:h-[30rem] h-[19rem] mx-auto">
           <img

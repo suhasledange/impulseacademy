@@ -4,10 +4,24 @@ import { FaCaretDown } from 'react-icons/fa';
 import { useBlogsContext } from '../context/BlogProvider';
 import BlogCard from '../components/Blog/BlogCard';
 import Loader from '../components/Loader'
+import { Helmet } from 'react-helmet'
 const Blogs = () => {
   const { blogsData, loadMoreBlogs,loadingData } = useBlogsContext();
   return (
     <div className='bg-white w-full overflow-x-hidden'>
+
+<Helmet>
+        <title>Latest Articles & Updates - Impulse Academy</title>
+        <meta
+          name="description"
+          content="Stay ahead with the latest physics tips, news, and updates from Impulse Academy. Explore our blog for educational content and resources."
+        />
+        <meta
+          name="keywords"
+          content="physics blogs, Impulse Academy, physics news, updates, education, blog articles"
+        />
+      </Helmet>
+
     <Container className="py-10">
       <div className='text-center w-full'>
           <h1 className='text-text-head lg:text-3xl text-2xl mb-2 font-semibold'>Latest Articles & Updates</h1>

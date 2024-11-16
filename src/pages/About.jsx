@@ -2,10 +2,29 @@ import React from "react";
 import Container from "../components/Container";
 import Section1 from "../components/About/Section1";
 import Section2 from "../components/About/Section2";
-
+import { Helmet } from 'react-helmet'
 const About = () => {
   return (
     <div className="bg-white w-full">
+
+<Helmet>
+        <title>About Impulse Academy</title>
+        <meta
+          name="description"
+          content="Impulse Academy, established in 2010 in Bhusawal, provides quality education for board and competitive exams, including MHT-CET and JEE preparation."
+        />
+        <meta
+          name="keywords"
+          content="Impulse Academy, education, Bhusawal, MHT-CET, JEE, board exams, personalized learning"
+        />
+        <meta property="og:title" content="About Impulse Academy" />
+        <meta
+          property="og:description"
+          content="Impulse Academy, founded in 2010 in Bhusawal, is dedicated to providing high-quality education for both board and competitive exams."
+        />
+      </Helmet>
+
+      
       <Container className="my-16">
         <div className="mb-16">
           <h1 className="lg:text-3xl text-2xl text-text-head font-semibold mb-6">
