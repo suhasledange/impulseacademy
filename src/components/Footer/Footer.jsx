@@ -90,7 +90,7 @@ const Footer = () => {
                   aria-label="redirect to specific link"
                   className=" bg-text-head text-white lg:p-2 p-[0.35rem] rounded-full"
                   key={s.id}
-                  href="#"
+                  href={s.link}
                   target="_blank"
                 >
                   {s.Icon}
