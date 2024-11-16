@@ -10,9 +10,9 @@ import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 const Footer = () => {
   const socialIcon = [
-    { id: 1, Icon: <FaFacebookF />, link: "#" },
-    { id: 2, Icon: <FaInstagram />, link: "#" },
-    { id: 3, Icon: <FaYoutube />, link: "#" },
+    { id: 1, Icon: <FaFacebookF />, link: "https://www.facebook.com/badgujarmanoj77" },
+    { id: 2, Icon: <FaInstagram />, link: "https://www.instagram.com/badgujarmanoj77?igsh=MXVvdGI3Ymk0ZXhhdw==" },
+    { id: 3, Icon: <FaYoutube />, link: "https://youtube.com/@impulsephysics?si=L63sOx_xuHXtrGK2" },
   ];
 
   return (

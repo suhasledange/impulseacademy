@@ -39,7 +39,7 @@ const WhatShould = () => {
           competitive exams like{" "}
           <span className="text-black">JEE, and MHT-CET</span>, while also
           while also offering in-depth support for{" "}
-          <span className="text-black">11th and 12th-grade </span>
+          <span className="text-black">11th and 12th state board </span>
           Physics.With a focus on personalized learning and proven
           results,we are dedicated to helping students achieve their
           dreams

@@ -45,9 +45,11 @@ const CourseOverviewCard = ({ course }) => {
       </div>
       </div>
       <div className="text-center mt-8">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkfcPqCHmHB73dxgzlnp3oI8p8QbXTOSdg9qnPKDs9AWGSlA/viewform?vc=0&c=0&w=1&flr=0" target="_blank" aria-label="enroll link">
         <button className="bg-blue-btn duration-200 active:scale-95 hover:bg-text-para text-white font-semibold py-2 px-8 rounded-full shadow-lg lg:text-md text-sm">
           Enroll Now
         </button>
+        </a>
       </div>
 
     </div>

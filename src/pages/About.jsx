@@ -21,7 +21,7 @@ const About = () => {
             alongside strong support for 11th and 12th-state board studies.
             Achieving key milestones, including over 500 successful students in
             top exams, the academy continues to evolve by incorporating modern
-            teaching methods and fostering a in passion for learning in every
+            teaching methods and fostering a passion for learning in every
             student.
           </p>
         </div>

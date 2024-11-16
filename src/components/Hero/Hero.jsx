@@ -11,7 +11,7 @@ const Hero = () => {
 
         <div className='flex items-center lg:gap-20 md:gap-16 gap-14 md:justify-between justify-center'>
         <div className='md:w-[60%] lg:w-[50%] w-[100%]'>
-            <h1 className='text-2xl md:text-3xl lg:text-4xl text-text-head font-Alata font-semibold'>Achieve Excellence in JEE, MHT-CET, & 11th/12th grade physics with-Bhusawal’s leading academy.</h1>
+            <h1 className='text-2xl md:text-3xl lg:text-4xl text-text-head font-Alata font-semibold'>Achieve Excellence in JEE, MHT-CET, & 11th/12th STATE BOARD PHYSICS with-Bhusawal’s leading academy.</h1>
             <p className='mt-4 font-Inder lg:text-[1.2rem] md:text-[1rem] text-[0.9rem] leading-6 text-text-para'>
             Learn from top educators, master competitive exams,
             and secure your future success.

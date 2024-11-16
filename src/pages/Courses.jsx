@@ -91,9 +91,11 @@ const Courses = () => {
           <h1 className="lg:text-xl text-lg mb-8 font-medium text-center text-text-head">
             Ready to take your Physics Skills to the next level?
           </h1>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkfcPqCHmHB73dxgzlnp3oI8p8QbXTOSdg9qnPKDs9AWGSlA/viewform?vc=0&c=0&w=1&flr=0" target="_blank" aria-label="enroll link">
           <button className="lg:text-lg text-md text-white rounded-xl hover:bg-text-para hover:shadow-lg duration-200 bg-blue-btn px-8 py-3 w-full">
             Enroll Now
           </button>
+          </a>
         </div>
       </Container>
     </div>

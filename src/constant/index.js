@@ -98,10 +98,10 @@ export const review = [
   {
     id: 1,
     review:
-      "I had an incredible experience with Manoj Badgujar sir as my physics teacher. His passion for the subject is truly inspiring, and he has a remarkable ability to break down complex concepts into clear and easy ways. Using life lessons and fun elements, he made physics feel like a cakewalk. He created a supportive and stimulating learning environment that made physics both enjoyable and rewarding. Thank you for helping me fall in love with physics.",
-    name: "Aditya Thakur",
+      "I have become very confident about physics after joining Impulse academy. Badgujar sir has taught us fundamental concepts of Physics very excellently. He has covered very sincerely all the syllabus of Board exam, CET exam and JEE exam also. He always motivates us very positively.",
+    name: "Eshan Bharambe",
     batch: "Student",
-    image: reviewImg1,
+    image: reviewImg4,
   },
   {
     id: 2,
@@ -124,14 +124,15 @@ export const review1 = [
     batch: "Student",
     image: reviewImg3,
   },
+
   {
     id: 2,
     review:
-      "I have become very confident about physics after joining Impulse academy. Badgujar sir has taught us fundamental concepts of Physics very excellently. He has covered very sincerely all the syllabus of Board exam, CET exam and JEE exam also. He always motivates us very positively.",
-    name: "Eshan Bharambe",
+      "I had an incredible experience with Manoj Badgujar sir as my physics teacher. His passion for the subject is truly inspiring, and he has a remarkable ability to break down complex concepts into clear and easy ways. Using life lessons and fun elements, he made physics feel like a cakewalk. He created a supportive and stimulating learning environment that made physics both enjoyable and rewarding. Thank you for helping me fall in love with physics.",
+    name: "Aditya Thakur",
     batch: "Student",
-    image: reviewImg4,
-  }
+    image: reviewImg1,
+  },
 ];
 
 export const blog = [
@@ -199,7 +200,7 @@ export const facutyInfo = [
     id: 2,
     title: "Experience",
     description:
-      "With over 14 years of experience in coaching classes and 10 years in engineering college teaching, Prof.Manoj p. Badgujar brings a wealth of knowledge and experties to his students.",
+      "With over 14 years of experience in coaching classes and 10 years in engineering college teaching, Prof. Manoj. P. Badgujar brings a wealth of knowledge and experties to his students.",
   },
   {
     id: 3,
@@ -290,33 +291,46 @@ export const CourseEnrollInfo = [
   },
   {
     id: 3,
-    title: "11th/12th Board Course Overview",
+    title: "11th/12th State Board Course Overview",
     image: examIcon,
     description:
       "Our Maharashtra State Board Physics course comprehensively covers the syllabus for both 11th and 12th Board exams, primarily focusing on written, theoretical answers, derivations, and explanations, allowing students to showcase their conceptual clarity. The syllabus is divided into two main sections.",
-    topics: {
-      class11: [
-        "Motion in a Plane",
-        "Laws of Motion",
-        "Gravitation",
-        "Thermal Properties of Matter",
-        "Sound, Optics",
-        "Electrostatics, and Semiconductors.",
-      ],
-      class12: [
-        "Circular Motion",
-        "Gravitation",
-        "Laws of Motion",
-        "Rotational Motion",
-        "Thermal Properties of Matter",
-        "Oscillations",
-        "Surface Tension",
-        "Wave Theory",
-        "Interference and Diffraction",
-        "Electrostatics, Magnetism & Semiconductors",
-        "Communication Systems",
-      ],
-    },
+      topics: {
+        class11: [
+          "Units and Measurements",
+          "Mathematical Methods",
+          "Motion in a Plane",
+          "Laws of Motion",
+          "Gravitation",
+          "Mechanical Properties of Solids",
+          "Thermal Properties of Matter",
+          "Sound",
+          "Optics",
+          "Electrostatics",
+          "Electric Current Through Conductors",
+          "Magnetism",
+          "Electromagnetic Waves and Communication System",
+          "Semiconductors",
+        ],
+        class12: [
+          "Rotational Dynamics",
+          "Mechanical Properties of Fluids",
+          "Kinetic Theory of Gases and Radiation",
+          "Thermodynamics",
+          "Oscillations",
+          "Superposition of Waves",
+          "Wave Optics",
+          "Electrostatics",
+          "Current Electricity",
+          "Magnetic Fields due to Electric Current",
+          "Magnetic Materials",
+          "Electromagnetic Induction",
+          "AC Circuits",
+          "Dual Nature of Radiation and Matter",
+          "Structure of Atoms and Nuclei",
+          "Semiconductor Devices",
+        ],
+      },
   },
 ];
 export const publications = [
