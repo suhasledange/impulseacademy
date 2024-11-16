@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://impulseacademy.vercel.app/</loc>
+    <loc>https://impulse-academy.in/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://impulseacademy.vercel.app/courses</loc>
+    <loc>https://impulse-academy.in/courses</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://impulseacademy.vercel.app/about</loc>
+    <loc>https://impulse-academy.in/about</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://impulseacademy.vercel.app/blogs</loc>
+    <loc>https://impulse-academy.in/blogs</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://impulseacademy.vercel.app/contact</loc>
+    <loc>https://impulse-academy.in/contact</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
